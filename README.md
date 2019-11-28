@@ -5,6 +5,10 @@
 ---
 [最新发布 2.0.1](https://github.com/zoumorn/tkreborn/releases/download/2.0.1.1127/tkreborn-win32-x64-2.0.1.1127.zip)
 
+联系作者
+---
+QQ: 13716369  EMAIL: zoumorn(AT)msn.com  或者 [直接留言](https://github.com/zoumorn/tkreborn/issues/new)
+
 什么样的情况能返现？
 ---
 使用一撮毛后，几乎任何淘宝和天猫的成交购物都能收到返现，甚至下单就立即能看到即将获得的返现金额。
