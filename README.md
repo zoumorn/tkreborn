@@ -9,6 +9,10 @@
 ---
 QQ: 13716369  EMAIL: zoumorn(AT)msn.com  或者 [直接留言](https://github.com/zoumorn/tkreborn/issues/new)
 
+实现技术与核心代码，仅供开发人员参考
+---
+[基于Electron淘宝自我返利工具#一撮毛#实现可行性研究](https://zhuanlan.zhihu.com/p/94660663)
+
 什么样的情况能返现？
 ---
 使用一撮毛后，几乎任何淘宝和天猫的成交购物都能收到返现，甚至下单就立即能看到即将获得的返现金额。
