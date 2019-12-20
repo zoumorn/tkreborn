@@ -3,7 +3,7 @@
 
 立即下载
 ---
-[最新发布 2.0.1.1218](https://github.com/zoumorn/tkreborn/releases/download/2.0.1.1218/tkreborn-win32-x64-2.0.1.1218-b2.zip)
+[最新发布 2.0.1.1220](https://github.com/zoumorn/tkreborn/releases/download/2.0.1.1220/tkreborn-win32-x64-2.0.1.1220.zip)
 
 联系作者
 ---
