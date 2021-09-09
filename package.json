@@ -1,0 +1,21 @@
+{
+  "name": "tkreborn",
+  "version": "2.0.1",
+  "description": "Tk reborn",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "npx electron .",
+    "pack": "npx electron-packager . --asar --overwrite --icon='./assets/image/logo.ico' --ignore='\\.hg' --ignore='\\.vscode$' --ignore='bridge$' --ignore='simulator$' --ignore='test$'"
+  },
+  "author": "2dash",
+  "dependencies": {
+    "crx": "^5.0.1",
+    "log4js": "^5.2.2",
+    "node-fetch": "^2.6.0",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "electron": "^6.1.4",
+    "electron-packager": "^14.1.1"
+  }
+}

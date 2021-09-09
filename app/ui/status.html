@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+    <script src="./status.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <h3 class="text-muted">服务状态</h3>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-sm-2">网络状态：</div>
+            <div class="col-sm-6">
+                <span id="network-icon" class="label label-warning">warning</span>
+                <div id="network-text">CHECKING</div>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-sm-2">登录状态：</div>
+            <div class="col-sm-6">
+                <span id="login-icon" class="label label-warning">warning</span>
+                <div id="login-text">CHECKING</div>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-sm-2">配置状态：</div>
+            <div class="col-sm-6">
+                <span id="conf-icon" class="label label-warning">warning</span>
+                <div id="conf-text">CHECKING</div>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div id="loggingEvents" class="col-sm-12"></div>
+        </div>
+    </div>
+</body>
+</html>

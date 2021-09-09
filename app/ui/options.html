@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <script src="options.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <h3 class="text-muted">系统设置</h3>
+        </div>
+        <br/>
+        <div class="form-horizontal">
+            <div class="form-group">
+                <label for="auth" class="control-label col-sm-2">系统编码：</label>
+                <div class="col-sm-6">
+                    <input id="auth" type="text" class="form-control">
+                    <div>客户端会根据此编码连接本系统。
+                    <a id="gettrialauth" href="javascript:void(0);">生成编码</a></div>
+                </div>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label for="aliuser" class="control-label col-sm-2">登录账号：</label>
+                <div class="col-sm-6">
+                    <input id="aliuser" type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="alipwd" class="control-label col-sm-2">登录密码：</label>
+                <div class="col-sm-6">
+                    <input id="alipwd" type="password" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-6">
+                    <div class="checkbox">
+                        <label>
+                            <input id="autologin" type="checkbox">过期后自动登录
+                            <a id="trylogin" href="javascript:void(0);">测试</a>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label for="alipid" class="control-label col-sm-2">PID：</label>
+                <div class="col-sm-6">
+                    <input id="alipid" type="text" class="form-control" disabled>
+                    <div>包含PID的链接不会被客户端转换。
+                    <a id="getpid" href="javascript:void(0);">获取(需先登录)</a></div>
+                </div>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label for="alisiteid" class="control-label col-sm-2">推广位ID：</label>
+                <div class="col-sm-6">
+                    <input id="alisiteid" type="text" class="form-control" disabled>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="aliadzoneid" class="control-label col-sm-2">广告位ID：</label>
+                <div class="col-sm-6">
+                    <input id="aliadzoneid" type="text" class="form-control" disabled>
+                    <div>客户端将使用此推广位及广告位转换。
+                    <a id="getsiteadzone" href="javascript:void(0);">获取(需先登录)</a></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-6">
+                    <div class="checkbox">
+                        <label><input id="closetotray" type="checkbox">关闭时最小化到系统栏</label>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-6">
+                    <button id="save" type="button" class="btn btn-default">保存</button>
+                    <div id="status"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
